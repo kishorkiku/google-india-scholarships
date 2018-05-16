@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Animal Trading Cards</title>
+</head>
+<body>
+	<div>
+		<!-- your favorite animal's name goes here -->
+		<h3>Monkey</h3>
+		<!-- your favorite animal's image goes here -->
+		<img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Macaca_sinica_-_01.jpg" alt="monkey"width=300px  >
+		<div class="item">
+			<!-- your favorite animal's interesting fact goes here -->
+			<p class="letter">Monkeys are very vocal animals and that is their name way of communicating with each other. They give of different pitches to warm off danger, to call a mate, and even to communicate with their young. </p>
+			<ul>
+				<!-- your favorite animal's list items go here -->
+				<li><span>Height</span>:55 – 65 cm</li>
+				<li><span>Weight</span>: 2.9 – 3.9 kg</li>
+				<li><span>Life Span</span>: 11-15 years</li>
+				<li><span>Length</span>: 1 metre </li>
+			</ul>
+			<!-- your favorite animal's description goes here -->
+			<p>There are many different things that come to mind when we think about Monkeys. They are often seen as being cute and highly intelligent animals. There are many different species that have their own characteristics in terms of size, color, location, and even their abilities. They are known for being good care givers to the young and even having some humanistic movements.</p>
+		</div>
+	</div>
+</body>
+</html>
