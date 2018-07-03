@@ -1,0 +1,52 @@
+body{
+margin:0;
+padding:0;	
+background-image:url("image/web-background.png");
+background-size:cover;
+background-position:100%;
+font-family:sans-serif;
+height:100%;
+}
+.pic{
+border-radius: 50%;
+width:200px;
+}
+img.pic {
+    align:center; 
+}
+.container{
+text-align:center;
+padding-top:20px
+}
+
+.project{
+padding-top:10px;
+text-align:center;
+font-weight:bold;
+font-size:20px;
+text-shadow:1px 2px red;
+}
+img.pro{
+border-radius:20px;
+width:200px;	
+height:200px
+}
+.skill{
+
+text-shadow:1px 2px red;
+background-color:#f2f2f2;
+text-align:center;
+width:100%;
+opacity:0.9;
+
+}
+img.skill_image{
+	width:300px;
+}
+.end{
+	text-align:center;
+	color:#ff884d;
+	}
+img.end_image{
+width:47px;
+}
