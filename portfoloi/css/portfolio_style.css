@@ -8,6 +8,7 @@ font-family:sans-serif;
 height:100%;
 }
 .container{
+  display:flex;
   flex-direction:column;
 }
 .pic{
@@ -50,13 +51,14 @@ opacity:0.9;
 .end_image{
 width:47px;
 }
-@media screen and (min-width:400px) and (max-width:600px) {
+@media screen and (min-width:300px) and (max-width:400px) {
 img.pro{
 	border-radius:20px;
     width:120px;	
     height:120px
 }
 .skill_image{
-width:100px;
+width:140px;
 }
 }
+
