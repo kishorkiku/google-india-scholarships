@@ -1,13 +1,11 @@
-#frontend-nanodegree-neighourhood-map
-=========================================
 
-##How to Run
+## How to Run
 =============
 
     1.Download the *frontend-nanodegree-Neighourhood-map* folder.
     2.Open the file named *index.html*
 
-##Functionalities
+## Functionalities
 =================
 
     1.Can search for a loction in list using search box
