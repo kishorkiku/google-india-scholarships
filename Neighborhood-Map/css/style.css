@@ -1,0 +1,95 @@
+html,body {
+  height: 100%;
+  margin: 0px;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+#map {
+  height: 100%;
+}
+
+#pano {
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (min-width:500px) {
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #Menu {
+    background-color:grey;
+    color: white;
+    width: 25%;
+  }
+
+  #map {
+    width: 75%;
+    height: 100%;
+  }
+
+  li {
+    border-bottom: 1px solid white;
+    line-height: 30px;
+    background-color: black;
+  }
+}
+
+@media screen and (min-width:800px) {
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #Menu {
+    background-color: grey;
+    color: white;
+    width: 25%;
+  }
+
+  #map {
+    width: 75%;
+    height: 100%;
+  }
+
+  li {
+    border-bottom: 1px solid white;
+    line-height: 30px;
+    background-color: black;
+  }
+}
+@media screen and (min-width:400px) {
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #Menu {
+    background-color: grey;
+    color: white;
+    width: 25%;
+  }
+
+  #map {
+    width: 75%;
+    height: 100%;
+  }
+
+  li {
+    border-bottom: 1px solid white;
+    line-height: 30px;
+    background-color: black;
+  }
+}

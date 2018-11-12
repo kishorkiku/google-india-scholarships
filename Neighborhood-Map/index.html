@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rajasthan</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main id="container">
+    <div id="Menu">
+      <div id="search">
+        <h2>Rajasthan</h2>
+        <h3>Tourist place in Rajasthan</h3>
+        <input placeholder="Search…" type="search" data-bind="value: query, valueUpdate: 'keyup'" autocomplete="off">
+      </div>
+      <div>
+        <ul data-bind=" foreach:locationslist" id="list">
+          <li data-bind="text: $data.title, click: $parent.clickLI"></li>
+        </ul>
+      </div>
+    </div>
+    <div id="map"></div>
+    <script src="library/jquery.min.js"></script>
+    <script src="library/knockout-3.2.0.js"></script>
+    <script src="js/app.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyCG6pv4Ij4OmVS0rxrsARR3QSeLwr-IazE&callback=initMap" onerror="mapError()">
+     
+   </script>
+  </main>
+</body>
+
+</html>
