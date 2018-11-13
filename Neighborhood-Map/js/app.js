@@ -202,6 +202,9 @@ function initMap() {
     },
     zoom: 12
   });
+function gm_authFailure() { 
+alert("something went wrong"); 
+    };
   viewModel.query.subscribe(viewModel.search);
   ko.applyBindings(viewModel);
   largeInfowindow = new google.maps.InfoWindow();
