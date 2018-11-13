@@ -13,22 +13,34 @@
       <div id="search">
         <h2>Rajasthan</h2>
         <h3>Tourist place in Rajasthan</h3>
-        <input placeholder="Search…" type="search" data-bind="value: query, valueUpdate: 'keyup'" autocomplete="off">
+        <input aria-label='Enter search text' placeholder="Search…" type="search" data-bind="value: query, valueUpdate: 'keyup'" autocomplete="off">
       </div>
       <div>
         <ul data-bind=" foreach:locationslist" id="list">
-          <li data-bind="text: $data.title, click: $parent.clickLI"></li>
+          <li role="list" tabindex="2" data-bind="text: $data.title, click: $parent.clickLI"></li>
         </ul>
       </div>
     </div>
-    <div id="map"></div>
+    <div role="application" id="map"></div>
     <script src="library/jquery.min.js"></script>
     <script src="library/knockout-3.2.0.js"></script>
     <script src="js/app.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyCG6pv4Ij4OmVS0rxrsARR3QSeLwr-IazE&callback=initMap" onerror="mapError()">
-     
+    <script>
+    function initMap() {
+  // Constructor creates a new map - only center and zoom are required.
+    map = new google.maps.Map(document.getElementById('map'), {
+    center: {
+      lat: 26.922070,
+      lng: 75.778885
+    },
+    zoom: 12
+  });
+      function gm_authFailure() { 
+        alert("something went wrong"); 
+    };
+  </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyCG6pv4Ij4OmVS0rxrsARR3QSeLwr-IazE&callback=initMap" onerror="mapError()" 
    </script>
   </main>
 </body>
-
 </html>
