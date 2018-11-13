@@ -194,15 +194,6 @@ var viewModel = {
   }
 };
 
-function initMap() {
-  // Constructor creates a new map - only center and zoom are required.
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {
-      lat: 26.922070,
-      lng: 75.778885
-    },
-    zoom: 12
-  });
   viewModel.query.subscribe(viewModel.search);
   ko.applyBindings(viewModel);
   largeInfowindow = new google.maps.InfoWindow();
